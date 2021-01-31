@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Todo T2 Add three items -->
+
+    <item
+        android:id="@+id/profile_menu"
+        android:title="Your Profile"
+        app:showAsAction="never"
+        android:orderInCategory="1"
+        />
+    <item
+        android:id="@+id/booking_menu"
+        android:title="Bookings"
+        app:showAsAction="never"
+        android:orderInCategory="2"
+        />
+    <item
+        android:id="@+id/history_menu"
+        android:title="History"
+        app:showAsAction="never"
+        android:orderInCategory="3"
+        />
+    <item
+        android:id="@+id/search_menu"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always"
+        />
+</menu>
